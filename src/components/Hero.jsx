@@ -4,12 +4,12 @@ export default function Hero() {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center text-center bg-black text-white px-6 pt-16">
       
-      {/* Profile Photo */}
+      {/* Profile Photo - MUCH LARGER NOW */}
       <div className="mb-8">
         <img 
           src={profilePic} 
           alt="Shema Aimable"
-          className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-white/20 hover:border-white/40 transition mx-auto"
+          className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-white/20 hover:border-white/40 transition mx-auto"
         />
       </div>
 
